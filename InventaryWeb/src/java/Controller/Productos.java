@@ -40,6 +40,21 @@ public class Productos extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+         String estadop = request.getParameter("opcion");
+         String id_pro = request.getParameter("idP");
+         String nombre_pro = request.getParameter("nombreP");
+         String stock_pro = request.getParameter("stockP");
+         String precio_pro = request.getParameter("precioP");
+         String unidad_pro = request.getParameter("unidadP");
+         String estado_pro = request.getParameter("estadoP");
+         String categoria_pro = request.getParameter("categoriaP");
+         
+         if(estadop.equals("listar")){
+             this.listaCategoria(request, response);
+             }else{
+              
+         }
+         
     }
 
     /**
@@ -61,7 +76,7 @@ public class Productos extends HttpServlet {
          CategoriaDAO categoria = new CategoriaDAOImplementar();
          HttpSession sesion = request.getSession(true);
          sesion.setAttribute("lista", categoria.Listar());
-         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Vistas-Categorias/listarCategorias.jsp");
+         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Vistas-Categorias/listarProducto.jsp");
          dispatcher.forward(request, response);
     }
     @Override
