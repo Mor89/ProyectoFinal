@@ -36,27 +36,45 @@
                     <th>
                         STOCK
                     </th>
+                    <th>
+                        PRECIO
+                    </th>
+                    <th>
+                        UNIDAD M
+                    </th>
+                    <th>
+                        ESTADO P
+                    </th>
+                    <th>
+                        CATEGORIA
+                    </th>
                 </tr>
                 <%
                  for(int i = 0; i < lista.size(); i++){
-                    Categoria categoria = new Categoria();
-                    categoria = (Categoria)lista.get(i);
+                    Producto producto = new Producto();
+                    producto = (Producto)lista.get(i);
                  %>
                  <tr>
-                     <td><%= categoria.getId_categoria() %></td>
-                     <td><%= categoria.getNom_categoria() %></td>
-                     <td><%= categoria.getEstado_categoria() %></td>
+                     <td><%= producto.getId_producto() %></td>
+                     <td><%= producto.getNom_producto() %></td>
+                     <td><%= producto.getStock() %></td>
+                     <td><%= producto.getPrecio() %></td>
+                     <td><%= producto.getUnidadMedida() %></td>
+                     <td><%= producto.getEstado() %></td>
+                     <td><%= producto.getCategoria() %></td>
+                     
+                     
                      <td>
-                         <a href="categorias?opcion=editar&&id=<%= categoria.getId_categoria() %>&&nombre=<%= categoria.getNom_categoria() %>&&estado=<%= categoria.getEstado_categoria() %>" class="btn btn-info btn-sm glyphicon glyphicon-edit" role="button">Editar</a>
+                        <a href="categorias?opcion=editar&&id=<%--= categoria.getId_categoria() %>&&nombre=<%= categoria.getNom_categoria() %>&&estado=<%= categoria.getEstado_categoria() %>" class="btn btn-info btn-sm glyphicon glyphicon-edit" role="button">Editar</a>
                          <a href="categorias?opcion=eliminar&&id=<%= categoria.getId_categoria() %>&&nombre=<%= categoria.getNom_categoria() %>" class="btn btn-danger btn-sm glyphicon glyphicon-remove" role="button">Eliminar</a>
                      </td>
                  </tr>
                  <%
                  }
-                 %>
+                 --%>
             </table>
         </div>
-        
+      
         <%@include file = "../WEB-INF/Vistas-Parciales/pie.jspf" %>
     </body>
 </html>

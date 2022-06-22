@@ -2,7 +2,7 @@ package Factory;
 
 public class FactoryConexionDB {
     public static final int MySQL = 1;
-    public static String[] configMySQL = {"bd_inventario2", "root",""};
+    public static String[] configMySQL = {"bd_inventario", "root",""};
     
     public static ConexionBD open(int tipoDB){
         switch(tipoDB){

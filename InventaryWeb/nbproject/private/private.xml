@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Test/PruevaProducto.java</file>
             <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Factory/FactoryConexionDB.java</file>
             <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Controller/Productos.java</file>
@@ -29,6 +30,24 @@
             <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/DAO/CategoriaDAO.java</file>
             <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Model/Categoria.java</file>
             <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/Vistas-Categorias/crearCategorias.jsp</file>
+=======
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/web/css/bootstrap.min.css</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/src/java/Factory/ConexionBD.java</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/src/java/Controller/Index.java</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/web/Vistas-Categorias/listarProductos.jsp</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/src/java/Model/Producto.java</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/src/java/DAO/CategoriaDAOImplementar.java</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/web/css/estilo-base.css</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/web/WEB-INF/Vistas-Parciales/encabezado.jspf</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/src/java/DAO/CategoriaDAO.java</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/web/Vistas-Categorias/crearCategorias.jsp</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/src/java/Factory/FactoryConexionDB.java</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/web/Vistas-Categorias/listarCategorias.jsp</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/src/java/Factory/MySQLConexionFactory.java</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/src/java/Controller/Categorias.java</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/src/java/Controller/Productos.java</file>
+            <file>file:/C:/Users/ITCA/Desktop/InventaryWeb/src/java/Model/Categoria.java</file>
+>>>>>>> 5d24955f1703a922f96ec3eb528ab77c723198b9
         </group>
     </open-files>
 </project-private>
