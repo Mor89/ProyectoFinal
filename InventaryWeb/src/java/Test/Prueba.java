@@ -1,9 +1,12 @@
 
 package Test;
 
-import DAO.CategoriaDAO;
-import DAO.CategoriaDAOImplementar;
-import Model.Categoria;
+//import DAO.CategoriaDAO;
+//import DAO.CategoriaDAOImplementar;
+import DAO.ProductoDAO;
+import DAO.ProductoDAOImplementar;
+//import Model.Categoria;
+import Model.Producto;
 import java.util.List;
 
 
@@ -12,14 +15,16 @@ public class Prueba {
     public static void main(String[] args) {
         Prueba evaluar = new Prueba();
         //evaluar.editarCategoria();
-        evaluar.listarcategorias();
+        //evaluar.listarcategorias();
         //evaluar.guardarCatgoria();
         //evaluar.eliminarCategoria();
+        
+        
        
         
     }
     
-    
+   /* 
     public void listarcategorias(){
         CategoriaDAO categoria = new CategoriaDAOImplementar();        
         //Prueba Listar
@@ -28,8 +33,8 @@ public class Prueba {
         System.out.println("Listado de categorias");
         for(Categoria categoriaListar: listar){
             System.out.println("ID: " + categoriaListar.getId_categoria() +
-                    "Nombre: " + categoriaListar.getNom_categoria() +
-                    "Estado: " + categoriaListar.getEstado_categoria());
+                               "Nombre: " + categoriaListar.getNom_categoria() +
+                               "Estado: " + categoriaListar.getEstado_categoria());
         }
     }
     
@@ -59,6 +64,7 @@ public class Prueba {
         CategoriaDAO categoria = new CategoriaDAOImplementar();
         categoria.borrarCat(20);
     }
+    */
     
-    
+     
 }
