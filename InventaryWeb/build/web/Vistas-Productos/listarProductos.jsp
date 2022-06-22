@@ -20,7 +20,7 @@
         
         <!--<div style="width: 600px;">-->
         <div class="col-auto bg-gray p-5 text-center">
-            <a href="<%= request.getContextPath() %>/categorias?opcion=crear" class ="btn btn-success btn-sm glyphicon glyphicon-pencil" role="button">Nueva Categoria</a>
+            <a href="<%= request.getContextPath() %>/productos?opcion=crear" class ="btn btn-success btn-sm glyphicon glyphicon-pencil" role="button">Nueva Categoria</a>
             <h3>Listado de Categorias</h3>
             <table class="table table-striped">
                 <tr>
@@ -40,10 +40,10 @@
                         PRECIO
                     </th>
                     <th>
-                        UNIDAD M
+                        UNIDAD DE MEDIDA
                     </th>
                     <th>
-                        ESTADO P
+                        ESTADO PRODUCTO
                     </th>
                     <th>
                         CATEGORIA
@@ -61,20 +61,18 @@
                      <td><%= producto.getPrecio() %></td>
                      <td><%= producto.getUnidadMedida() %></td>
                      <td><%= producto.getEstado() %></td>
-                     <td><%= producto.getCategoria() %></td>
-                     
-                     
+                     <td><%= producto.getCatogoria_id() %></td>
                      <td>
-                        <a href="categorias?opcion=editar&&id=<%--= categoria.getId_categoria() %>&&nombre=<%= categoria.getNom_categoria() %>&&estado=<%= categoria.getEstado_categoria() %>" class="btn btn-info btn-sm glyphicon glyphicon-edit" role="button">Editar</a>
-                         <a href="categorias?opcion=eliminar&&id=<%= categoria.getId_categoria() %>&&nombre=<%= categoria.getNom_categoria() %>" class="btn btn-danger btn-sm glyphicon glyphicon-remove" role="button">Eliminar</a>
+                         
+                         
                      </td>
                  </tr>
                  <%
                  }
-                 --%>
+                 %>
             </table>
         </div>
-      
+        
         <%@include file = "../WEB-INF/Vistas-Parciales/pie.jspf" %>
     </body>
 </html>

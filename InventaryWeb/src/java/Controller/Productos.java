@@ -5,8 +5,9 @@
  */
 package Controller;
 
-import DAO.CategoriaDAO;
-import DAO.CategoriaDAOImplementar;
+
+import DAO.ProductoDAO;
+import DAO.ProductoDAOImplementar;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -39,44 +40,22 @@ public class Productos extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
-         String estadop = request.getParameter("opcion");
-         String id_pro = request.getParameter("idP");
-         String nombre_pro = request.getParameter("nombreP");
-         String stock_pro = request.getParameter("stockP");
-         String precio_pro = request.getParameter("precioP");
-         String unidad_pro = request.getParameter("unidadP");
-         String estado_pro = request.getParameter("estadoP");
-         String categoria_pro = request.getParameter("categoriaP");
-         
-         if(estadop.equals("listar")){
-             this.listaCategoria(request, response);
-             }else{
-              
-         }
-         
+        this.listarProductos(request, response);
     }
 
-    /**
-     * Handles the HTTP <code>POST</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
+   
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
     }
     
-    protected void listaCategoria(HttpServletRequest request, HttpServletResponse response)
+    protected void listarProductos(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-         CategoriaDAO categoria = new CategoriaDAOImplementar();
+         ProductoDAO producto = new ProductoDAOImplementar();
          HttpSession sesion = request.getSession(true);
-         sesion.setAttribute("lista", categoria.Listar());
-         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Vistas-Categorias/listarProducto.jsp");
+         sesion.setAttribute("lista", producto.Listar());
+         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Vistas-Productos/listarProductos.jsp");
          dispatcher.forward(request, response);
     }
     @Override
