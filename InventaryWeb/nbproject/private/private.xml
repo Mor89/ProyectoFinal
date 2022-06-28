@@ -3,34 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/Vistas-Productos/listarProductos.jsp</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Test/PruevaProducto.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Factory/FactoryConexionDB.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Controller/Productos.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/Vistas-Categorias/bajaCategorias.jsp</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/Vistas-Categorias/editarCategorias.jsp</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/index.jsp</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Controller/actualizoCategoria.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/WEB-INF/Vistas-Parciales/css-js.jspf</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Factory/ConexionBD.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Controller/Index.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Factory/MySQLConexionFactory.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/css/bootstrap.min.css</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/DAO/CategoriaDAOImplementar.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Controller/BajaCategoria.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/css/estilo-base.css</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/WEB-INF/Vistas-Parciales/encabezado.jspf</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/DAO/ProductoDAO.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Controller/Categorias.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/Vistas-Categorias/listarCategorias.jsp</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Test/Prueba.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Model/Producto.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/js/bootstrap.bundle.min.js</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/DAO/ProductoDAOImplementar.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/WEB-INF/web.xml</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/DAO/CategoriaDAO.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/src/java/Model/Categoria.java</file>
-            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/InventaryWeb/web/Vistas-Categorias/crearCategorias.jsp</file>
+            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/ProyectoFinal/InventaryWeb/src/java/Controller/Inicio.java</file>
+            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/ProyectoFinal/InventaryWeb/src/java/Controller/Salir.java</file>
+            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/ProyectoFinal/InventaryWeb/src/java/DAO/UsuarioDAO.java</file>
+            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/ProyectoFinal/InventaryWeb/web/index.jsp</file>
+            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/ProyectoFinal/InventaryWeb/src/java/Controller/Index.java</file>
+            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/ProyectoFinal/InventaryWeb/web/inicio.jsp</file>
+            <file>file:/D:/ITCA-ciclo3/Metodologias%20Agiles%20para%20el%20Desarrollo%20de%20Software/Semana%2013/Ejercicio_Practico/ProyectoFinal/InventaryWeb/src/java/DAO/UsuarioDAOImplementar.java</file>
         </group>
     </open-files>
 </project-private>
