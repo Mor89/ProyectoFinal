@@ -19,10 +19,10 @@ public class PruevaProducto {
     public static void main(String[] args) {
         PruevaProducto evaluar = new PruevaProducto();
         evaluar.listarproducto();
-        evaluar.eliminarProducto();
+       // evaluar.eliminarProducto();
         evaluar.listarproducto();
         //evaluar.editarProducto();
-        //evaluar.guardarProducto();
+        evaluar.guardarProducto();
     }
     
     
@@ -45,7 +45,7 @@ public class PruevaProducto {
     
     
      
-   /*  
+     
     public void editarProducto() {
         ProductoDAO producto = new ProductoDAOImplementar();
         Producto pro_edit = producto.editarPro(1);
@@ -73,9 +73,11 @@ public class PruevaProducto {
         producto.guardarPro(guardarPro);
 
     }
-    */
-    public void eliminarProducto(){
+    
+  /*  public void eliminarProducto(){
         ProductoDAO producto = new ProductoDAOImplementar();
         producto.borrarPro(2);
+    
     }
+    */
 }

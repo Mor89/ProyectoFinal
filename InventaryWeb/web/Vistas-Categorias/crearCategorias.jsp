@@ -1,9 +1,3 @@
-<%-- 
-    Document   : crearCategorias
-    Created on : 20-jun-2022, 11:48:04
-    Author     : Wilson
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <jsp:useBean id="categoria" scope="session" class="Model.Categoria" />

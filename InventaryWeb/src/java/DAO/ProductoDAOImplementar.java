@@ -115,7 +115,7 @@ public class ProductoDAOImplementar implements ProductoDAO{
                 miSQL.append(" WHERE id_producto = ").append(producto.getId_producto()).append(";");
                 this.conn.ejecutarSQL(miSQL.toString());
             }
-           //guarda = true;
+           guarda = true;
         }catch(Exception e){
             
         }finally{

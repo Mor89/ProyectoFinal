@@ -4,7 +4,7 @@
     Author     : Wilson
 --%>
 
-<%@page import="Model.Categoria"%>
+
 <%@page import="Model.Producto"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -20,8 +20,8 @@
         
         <!--<div style="width: 600px;">-->
         <div class="col-auto bg-gray p-5 text-center">
-            <a href="<%= request.getContextPath() %>/productos?opcion=crear" class ="btn btn-success btn-sm glyphicon glyphicon-pencil" role="button">Nueva Categoria</a>
-            <h3>Listado de Categorias</h3>
+            <a href="<%= request.getContextPath() %>/productos?opcion=crear" class ="btn btn-success btn-sm glyphicon glyphicon-pencil" role="button">Nuevo Producto</a>
+            <h3>Listado de Productos</h3>
             <table class="table table-striped">
                 <tr>
                     <th>
